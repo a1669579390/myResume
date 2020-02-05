@@ -38,7 +38,7 @@ export class MyindexComponent implements OnInit {
         width:'40%'
        })
        $(".icon").css({
-         "background-image":"url(../../assets/close.png)"
+         "background-image":"url(../../assets/img/close.png)"
        })
        this.show=true;
      }else{    
@@ -47,7 +47,7 @@ export class MyindexComponent implements OnInit {
         width:'0%'
        })
        $(".icon").css({
-        "background-image":"url(../../assets/menu.png)"
+        "background-image":"url(../../assets/img/menu.png)"
       })
        setTimeout(() => {
           $(".zyc").hide()

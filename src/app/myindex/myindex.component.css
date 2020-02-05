@@ -26,7 +26,7 @@
   height: 30px;
 }
 #page1{
-  background-image: url(../../assets/bg6.jpg);
+  background-image: url(../../assets/img/bg6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -214,7 +214,7 @@
     position: fixed;
     top: 5%;
     right: 3%;
-    background-image: url(../../assets/menu.png);
+    background-image: url(../../assets/img/menu.png);
     background-size:70%;
     background-repeat: no-repeat;
     background-position: center;
@@ -390,7 +390,7 @@
   }
   /* 第四个界面 */
   #page4{
-    background-image: url(../../assets/bg1.jpg);
+    background-image: url(../../assets/img/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -888,7 +888,7 @@
     position: fixed;
     top: 5%;
     right: 3%;
-    background-image: url(../../assets/menu.png);
+    background-image: url(../../assets/img/menu.png);
     background-size:70%;
     background-repeat: no-repeat;
     background-position: center;
@@ -1044,7 +1044,7 @@
     opacity: 0;
   }
   #page4{
-    background-image: url(../../assets/bg1.jpg);
+    background-image: url(../../assets/img/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -1429,7 +1429,7 @@
 @media screen and (max-width:767px){
   #page1{
     width: 100%;  
-    background-image: url(../../assets/bg6.jpg);
+    background-image: url(../../assets/img/bg6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1639,7 +1639,7 @@
     opacity: 0;
   }
   #page4{
-    background-image: url(../../assets/bg1.jpg);
+    background-image: url(../../assets/img/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -1687,7 +1687,7 @@
   width: 35px;
   height: 35px;
   display: block;
-  background:url(../../assets/fengche.png) no-repeat;
+  background:url(../../assets/img/fengche.png) no-repeat;
   background-size: contain;
   transform: rotate(45deg);
   position: absolute;
