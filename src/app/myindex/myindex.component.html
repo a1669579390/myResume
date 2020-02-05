@@ -1,0 +1,322 @@
+<div class="container" id="wrap">
+  <!-- 右侧竖向楼层条 -->
+  <div class="swiper">
+    <div class="swiper-pagination">
+      <div class="swiper-pagination_1" id="circle1">
+        <a href="#page01">首页</a>
+      </div>
+    </div>
+    <div class="swiper-pagination">
+      <div class="swiper-pagination_1" id="circle2">
+        <a href="#page02">关于我</a>
+      </div>
+    </div>
+    <div class="swiper-pagination">
+      <div class="swiper-pagination_1" id="circle3">
+        <a href="#page03">个人技能</a>
+      </div>
+    </div>
+    <div class="swiper-pagination">
+      <div class="swiper-pagination_1" id="circle4">
+        <a href="#page04">我的经历</a>
+      </div>
+    </div>
+    <div class="swiper-pagination">
+      <div class="swiper-pagination_1" id="circle5">
+        <a href="#page05">我的作品</a>
+      </div>
+    </div>
+    <div class="swiper-pagination">
+      <div class="swiper-pagination_1" id="circle6">
+        <a href="#page06">联系我</a>
+      </div>
+    </div>
+  </div>
+  <div class="name">
+    <div class="music_img">
+      <img src="../../assets/img/diepian.png" alt="">
+      <img class="play-img"  (click)="play1()" src="../../assets/img/play.png" alt="">    
+    </div>    
+      <span>Yang</span>
+      <i>'s</i>
+      <b>resume</b>      
+  </div>
+    <!-- 弹出层 -->
+    <div class="zyc">
+      <div class="navigation">
+        <ul>
+          <li><a class="a01" href="#page01" (click)="toggle()">首页</a></li>
+          <li><a class="a02" href="#page02" (click)="toggle()">关于我</a></li>
+          <li><a class="a03" href="#page03" (click)="toggle()">个人技能</a></li>
+          <li><a class="a04" href="#page04" (click)="toggle()">我的经历</a></li>
+          <li><a class="a05" href="#page05" (click)="toggle()">我的作品</a></li>
+          <li><a class="a06" href="#page06" (click)="toggle()">联系我</a></li>
+         
+        </ul>
+      </div>
+    </div>
+    <!-- 手机端导航栏 -->
+    <div class="navigation-phone">
+      <ul>
+        <li><a class="a01" href="#page01" >首页</a></li>
+        <li><a class="a02" href="#page02" >关于我</a></li>
+        <li><a class="a03" href="#page03" >个人技能</a></li>
+        <li><a class="a04" href="#page04" >我的经历</a></li>
+        <li><a class="a05" href="#page05" >我的作品</a></li>
+        <li><a class="a06" href="#page06" >联系我</a></li>
+        <li><i></i></li>
+      </ul>
+    </div>
+    <div class="nav">
+      <div class="music">
+        <img (click)="play1()" class="touxiang" src="../../assets//img/diepian.png" alt="">
+        <i>My resume</i>
+        <img  (click)="phone_toggle()" class="menu" src="../../assets/menu_1.png" alt="">
+      </div>
+    </div>
+    <div class="icon" (click)="toggle()"></div>
+    <div id="main">
+      <div id="page1" class="section"> 
+        <div class="bghui">
+          <div class="desc"><!--第一栏中间的方框-->
+            <img src="../../assets/img/touxiang1.jpg" alt="">
+            <h2 id="a1" style="font-family:'BillieBarred'">Hello,I'm Yang</h2>
+            <h3>Luck is a matter of preparation meeting opportunity</h3>
+            <h4 class="left1">你好，我叫杨铜描</h4>
+            <h4 class="right1">一名前端开发工程师</h4>
+            <h4 class="left2">yangtongmiao@126.com</h4>
+          </div>   
+        </div> 
+      </div>
+        <div class="about section" id="page2">
+          <div class="bghui">
+            <div class="content">
+             <span class="title">关于我</span>
+              <div class="mezl">
+              <!-- 左侧图片 -->
+               <div class="scree_1">
+                  <img src="../../assets/yuan.jpg" alt="">
+               </div>
+               <div class="names">
+                  <h6>姓名：杨铜描</h6>
+                  <h6>年龄：23</h6>
+                  <h6>性别：男</h6>
+                  <h6>职位：前端开发工程师</h6>
+                  <h6>专业：计算机网络技术</h6>
+                  <h6>毕业院校：新乡职业技术学院</h6>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div> 
+      <!-- 第三个界面 -->
+      <div class="page3 section" id="page3">
+        <div class="bghui">
+          <h1 id="mySkill">个人技能</h1>
+         <div class="phone">
+          <div id="main1"></div>
+          <!-- 手机端技能掌握 -->
+          <div class="phone-w">
+            <ul>
+              <li class="w-1">熟练HTML5+CSS3+js，熟练使用DOM，熟悉浏览器兼容性，且熟练运用jQuery框架实现网页常用特效</li>
+              <li class="w-2">熟悉Vue，AngularJS,React框架、MVVM模式，数据绑定原理</li>
+              <li class="w-3">熟悉JS，面向对象，闭包，作用域链，原型链等原理promise，排序算法</li>
+              <li class="w-4">熟悉微信小程序开发，熟悉git多人协同开发，云部署，了解后端Nodejs,SQL语句</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- 第四个界面 -->
+      <div class="section" id="page4">
+        <div class="bghui">
+          <div class="swiper-page4">
+            <div class="page4-content">
+              <div class="jl-parent">
+                <!-- 经历文字加上右边小圆圈 -->
+                <div>
+                <div class="my-jl">
+                  <h3>我的经历</h3>
+                    <div class="jl-border">
+                      <span>2018</span>
+                      <i>YEAR</i>
+                    </div>
+                </div>
+                <!-- 圆圈下面的文字   -->
+                <ul class="jl-bottom">
+                  <li>
+                    <span>2018</span>
+                    <i>07月</i>
+                    <b></b>
+                    <em></em>
+                  </li>
+                  <li>
+                    <span>2018</span>
+                    <i>06月</i>
+                    <b></b>
+                    <em></em>
+                  </li>
+                </ul>              
+              </div>
+            </div>
+              <!-- 右边的经历介绍                         -->
+              <div class="jl-right">
+                <ul class="left-nav">
+                  <li><i></i></li>
+                  <li><i></i></li>
+                </ul>
+                <ul>
+                  <li>
+                    <b>2018年6月</b>
+                    <h2>在河南鱼塘网络科技有限公司工作</h2>
+                    <h3>&lt;web前端开发工程师&gt;</h3>
+                    <i>负责公司网站的开发和优化，配合后端人员实现网站的界面和功能</i>
+                  </li>
+                  <li>
+                    <b>2018年7月</b>
+                    <h2>毕业于新乡职业技术学院</h2>
+                    <h3>计算机网络技术</h3>
+                    <i>主修课程：JAVA语言程序设计、Photo Shop图像处理、网页制作、数据库原理与应用。</i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 第五屏       -->
+      <div class="section" id="page5">
+        <div class="bghui">
+          <div class="my-zuopin">
+            <h3>我的作品</h3>
+          </div>
+            <div class="slide page-flex">
+              <div class="slide-imgs" (click)="toTg('')" title="点击图片跳转项目网站">
+                <img src="../../assets/img/login1.png" alt="">
+                <img src="../../assets/img/shouye.png" alt="">
+                <img src="../../assets/img/shop1.png" alt="">
+              </div>
+              <div class="miaoshu">
+                <div>
+                  <h4>项目名称：</h4>
+                  <span>ToGame(移动端)</span>
+                </div>
+                <div>
+                  <h4>项目描述：</h4>
+                  <span>仿WeGame开发的一款App游戏助手</span>
+                </div>
+                <div>
+                  <h4>技术栈：</h4>
+                  <span>Vue全家桶、Vant组件库、Socket.io MySQL、Node</span>
+                </div>
+                <div>
+                  <h4>技术实现：</h4>
+                  <span>用VUE全家桶、脚手架构建的项目、使用Vant第三方组件库、Socket.io实现多人聊天、基于Node搭建服务器、数据库使用MYSQL</span>
+                </div>
+                <div>
+                  <h4>项目源码：</h4>
+                  <span (click)="toTg('https://gitee.com/yang_tong_miao/togame.git')">https://gitee.com/yang_tong_miao/togame.git</span>
+                </div>
+              </div>
+            </div>
+            <div class="slide page-flex">
+              <div class="slide-imgs" id="ewm" title="微信扫描二维码即可体验">
+                <img src="../../assets/img/play1.jpg" alt="">
+                <img src="../../assets/img/play2.jpg" alt="">
+                <img src="../../assets/img/play3.jpg" alt="">
+              </div>
+              <div class="erweima">
+                <img src="../../assets/img/erweima.jpg" alt="">
+              </div>
+              <div class="miaoshu">
+                <div>
+                  <h4>项目名称：</h4>
+                  <span>MyMusic(微信小程序)</span>
+                </div>
+                <div>
+                  <h4>项目描述：</h4>
+                  <span>仿QQ音乐开发的一款音乐类小程序</span>
+                </div>
+                <div>
+                  <h4>技术栈：</h4>
+                  <span>小程序开发工具、Vant小程序组件库、云开发</span>
+                </div>
+                <div>
+                  <h4>技术实现：</h4>
+                  <span>实现了首页推荐、歌曲搜索、QQ音乐热门榜单、QQ播放界面、切换歌曲、播放列表、循环模式的开发，满足用户日常听歌的需求</span>
+                </div>
+                <div>
+                  <h4>项目源码：</h4>
+                  <span (click)="toTg('https://github.com/a1669579390/mymusicapp.git')">https://github.com/a1669579390/mymusicapp.git</span>
+                </div>
+              </div>
+            </div>
+            <div class="slide page-flex">
+              <div class="slide-imgs" id="ewm" title="微信扫描二维码即可体验">
+                <img class="xys" src="../../assets/img/jianli.png" alt="">
+              </div>
+              <div class="erweima">
+                <img src="../../assets/img/erweima.jpg" alt="">
+              </div>
+              <div class="miaoshu">
+                <div>
+                  <h4>项目名称：</h4>
+                  <span>个人简历(响应式)</span>
+                </div>
+                <div>
+                  <h4>项目描述：</h4>
+                  <span>web前端开发工程师响应式简历(本网站)</span>
+                </div>
+                <div>
+                  <h4>技术栈：</h4>
+                  <span>jQuery、fullpage、AngularJS</span>
+                </div>
+                <div>
+                  <h4>技术实现：</h4>
+                  <span>网页整页切换使用了fullpage插件,大部分动画效果使用了jQuery</span>
+                </div>
+                <div>
+                  <h4>项目源码：</h4>
+                  <span (click)="toTg('https://github.com/a1669579390/mymusicapp.git')">https://github.com/a1669579390/mymusicapp.git</span>
+                </div>
+              </div>
+            </div>
+            <!-- slide的底部导航栏 -->
+            <div class="slide-nav">
+              <ul>
+                <li onclick="slide(0)" id="nav-1"><span>1</span></li>
+                <li onclick="slide(1)" id="nav-2"><span>2</span></li>
+                <li onclick="slide(2)" id="nav-3"><span>3</span></li>
+              </ul>
+            </div>
+        </div>       
+      </div>
+      <div class="section" id="page6">
+        <div class="bghui">
+          <h3 id="contact">联系我</h3>
+          <div class="contact-me">
+            <i></i>
+            <h3>学习任何语言都是需要花费很多努力</h3>
+            <h3>但不要放弃</h3>
+            <h4>Learning any language takes a lot of effort</h4>
+            <h4> But don't give up</h4>            
+            <ul>
+              <li>
+                <img src="../../assets/img/github.png" alt="">
+                <span>github</span>
+              </li>
+              <li>
+                <img src="../../assets/img/phone.png" alt="">
+                <span>18839509421</span>
+              </li>
+              <li>
+                <img src="../../assets/img/email.png" alt="">
+                <span>yangtongmiao@126.com</span>
+              </li>
+            </ul>
+            <b></b>
+          </div>
+        </div>
+      </div>
+     </div>
+</div>

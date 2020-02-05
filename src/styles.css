@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+body,html{
+  padding: 0;
+  margin: 0;
+  scrollbar-width: none; /* firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  background-color: rgba(86, 83, 100,.5)
+}
+::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
